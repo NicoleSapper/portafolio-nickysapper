@@ -1,0 +1,501 @@
+/*******************************************************************************
+ * General
+ *******************************************************************************/
+@font-face {
+    font-family: 'Raleway';
+    src: url('./../fonts/Raleway-Bold.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Abril';
+    src: url('./../fonts/AbrilFatface-Regular.ttf')  format('truetype');
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    background-color: #fff;
+}
+
+h2 {
+    font-family: "Abril";
+    font-size: 3vw;
+}
+
+p {
+    font-family: "Raleway";
+    font-size: 1.25vw;
+}
+
+.section-bg {
+    height: 40vh;
+    background: url("./../img/Titulos-Manchas.png") no-repeat center center;
+    background-size: 100% auto;
+
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.section-bg > div > h2 {
+    margin-top: 20vh;
+}
+
+
+
+
+/*******************************************************************************
+ * Navbar
+ ******************************************************************************/
+nav {
+    background-color: #ff9ac9;
+    text-align: center;
+    border-radius: 0 !important;
+}
+
+nav > .container > .row > a {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.nav-brand {
+    height: 25px;
+    background-size: cover;
+
+    position: relative;
+    z-index: 1;
+}
+
+.nav-link {
+    z-index: 1;
+}
+
+.brocha-nav {
+    width: 30%;
+    height: 25px;
+
+    background: url("./../img/brochaAMARILLAhome.png") no-repeat center center;
+    background-size: cover;
+
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+.brocha-nav-lg {
+    width: 45%;
+    height: 30px;
+
+    top: 0px;
+    left: 55px;
+    z-index: -1;
+}
+
+
+
+/*******************************************************************************
+ * Landing section
+ ******************************************************************************/
+.landing-section {
+    height: 80vh;
+    background: url("./../img/Manchas-Home.png") no-repeat center center;
+    background-size: 100% auto;
+}
+
+.landing-img {
+    height: 40vh;
+    margin-top: 20vh;
+
+    background: url("./../img/Frase-Home2.png") no-repeat center center;
+    background-size: contain;
+}
+
+
+
+/*******************************************************************************
+ * About
+ ******************************************************************************/
+.about-section > div {
+    height: 50vh;
+}
+
+.about-left {
+    background-color: #ffe470;
+}
+
+.about-right {
+    background: url("./../img/Contacto-Manchas.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.about-img {
+    height: 40vh;
+    margin-top: 5vh;
+
+    background: url("./../img/IMG_1019.jpg") no-repeat center center;
+    background-size: contain;
+}
+
+.about-title {
+    font-family: "Abril";
+    font-size: 3.5vw;
+    margin-top: 10vh;
+}
+
+.about-body {
+    font-size: 1.25vw;
+}
+
+.about-icon {
+    background: url('./../img/Icono-Personita.png') no-repeat center center;
+    background-size: contain;
+
+    height: 30px;
+    margin-top: 4px;
+}
+
+.about-btn {
+    background-color: transparent;
+    border-radius: 0;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.about-btn:hover,
+.about-btn:active,
+.about-btn:focus {
+    color: #fff;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+
+.scroll-icon {
+    background: url('./../img/Flecha-PINK.png') no-repeat center center;
+    background-size: contain;
+
+    height: 20px;
+    margin-top: 55px;
+}
+
+
+
+/*******************************************************************************
+ * Casos
+ ******************************************************************************/
+.casos-img > div {
+    height: 70vh;
+    width: 80%;
+
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.casos-1 {
+    background: url("./../img/Brochure Cover Cosmo.jpg") no-repeat center center;
+    background-size: 100% auto;
+}
+
+.casos-2 {
+    background: url("./../img/Diseño Editorial2.png") no-repeat center center;
+    background-size: 100% auto;
+}
+
+.casos-3 {
+    background: url("./../img/Sintesis4.png") no-repeat center center;
+    background-size: 100% auto;
+}
+
+.casos-4 {
+    background: url("./../img/Libro de LectoEscritura1.jpg") no-repeat center center;
+    background-size: 100% auto;
+}
+
+.casos-5 {
+    background: url("./../img/Sticker Ventana Tienda Sweetie.jpg") no-repeat center center;
+    background-size: 100% auto;
+}
+
+.casos-overlay {
+    height: 100%;
+    width: 50%;
+    float: right;
+
+    background: url("./../img/Casos-Fondo-2.png") no-repeat center center;
+    background-size: 100% auto;
+}
+
+.casos-title {
+    margin-top: 20vh;
+}
+
+.casos-btn {
+    background-color: #fff;
+    color: #ffe470; 
+    border-radius: 0;
+    height: 6vh;
+
+    letter-spacing: 2px;
+    margin-top: 5vh;
+    padding-top: 1.5vh;
+}
+
+.casos-btn:hover,
+.casos-btn:active {
+    text-decoration: none;
+    background-color: #fff;
+    color: #ffe470;
+    box-shadow: none;
+}
+
+
+
+/*******************************************************************************
+ * Proyectos
+ ******************************************************************************/
+.proyectos-img > .row > div {
+    height: 35vh;
+    margin-top: 5vh;
+
+    position: relative;
+}
+
+.proyectos-img > .row > div > div {
+    height: 100%;
+    background-color: #ff9ac9;
+    background-size: cover;
+    position: relative;
+}
+
+.proyecto-1 {
+    background: url("./../img/Proyectos-Carousel/1. Diseño Editorial/Editorial1.png") no-repeat center center;
+}
+
+.proyecto-2 {
+    background: url("./../img/Proyectos-Carousel/2. Diseño Educativo/Educativo.jpg") no-repeat center center;
+}
+
+.proyecto-3 {
+    background: url("./../img/Proyectos-Carousel/3. Imagen Visual/ImagenVisual1.png") no-repeat center center;
+}
+
+.proyecto-4 {
+    background: url("./../img/Proyectos-Carousel/4. Diseño publicitario y promocional/Publicidad1.png") no-repeat center center;
+}
+
+.proyecto-5 {
+    background: url("./../img/Proyectos-Carousel/5. Ilustracion/Ilustracion1.png") no-repeat center center;
+}
+
+.proyecto-6 {
+    background: url("./../img/Proyectos-Carousel/6. Personajes/Personaje1.png") no-repeat center center;
+}
+
+.proyecto-7 {
+    background: url("./../img/Proyectos-Carousel/7. Fotografia/Fotografia1.png") no-repeat center center;
+}
+
+.proyecto-8 {
+    background: url("./../img/Proyectos-Carousel/8. Animacion/Animacion1.png") no-repeat center center;
+}
+
+.proyecto-9 {
+    background: url("./../img/Proyectos-Carousel/10. 3D/3D-1.png") no-repeat center center;
+}
+
+.proyecto-10 {
+    background: url("./../img/Proyectos-Carousel/9. Paginas Web/Web2.jpg") no-repeat center center;
+}
+
+.proyecto-11 {
+    background-color: #ffe470 !important;
+    background: url("./../img/Frase-Home.png") no-repeat center center;
+    background-size: auto 60% !important;
+}
+
+.proyecto-body-bg {
+    background-color: #ffe470;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+}
+
+.proyecto-title {
+    font-size: 1.75vw;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+
+    position: absolute;
+    top: 17vh;
+    margin: 0;
+}
+
+.hover-wrapper {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    opacity: 0 !important;
+}
+
+.hover-wrapper:hover {
+    opacity: 1 !important;
+}
+
+
+
+/*******************************************************************************
+ * Project detail section
+ ******************************************************************************/
+.project-detail-section {
+    height: 90vh;
+}
+
+.project-detail-section > div > div {
+    margin-top: 10vh;
+    height: 80vh;
+}
+
+.project-detail-img {
+    width: 100%;
+    height: 80vh !important;
+    object-fit: cover;
+}
+
+.project-detail-body {
+    position: relative;
+}
+
+.project-detail-body p {
+    color: #ff9ac9;
+    margin-bottom: 20vh;
+}
+
+.project-detail-body h2 {
+    color: #ff9ac9;
+    margin-bottom: 10vh;
+}
+
+.project-detail-body img {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+
+    margin-bottom: 10vh;
+}
+
+.project-detail-animacion > video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-detail-puntos-right {
+    height: 35vh;
+    width: 30%;
+
+    background: url("./../img/PuntosPINK-home.png") no-repeat center center;
+    background-size: contain;
+
+    position: absolute;
+    top: 20vh;
+    right: -15vh;
+}
+
+.project-detail-puntos-left {
+    height: 35vh;
+    width: 30%;
+
+    background: url("./../img/PuntosYELLOW-home.png") no-repeat center center;
+    background-size: contain;
+
+    position: absolute;
+    top: 50vh;
+    left: -10vh;
+}
+
+
+
+/*******************************************************************************
+ * Footer
+ ******************************************************************************/
+footer {
+    height: 70vh;
+    margin-top: 10vh;
+
+    background: url("./../img/Manchas-Barra.png") no-repeat center center;
+    background-size: auto 100%;
+}
+
+footer a,
+footer a:hover {
+    text-decoration: none;
+    color: #ff9ac9;
+}
+
+.footer-logo {
+    height: 40vh;
+    margin-top: 15vh;
+
+    background: url("./../img/LOGO-NS-pink.png") no-repeat center center;
+    background-size: contain;
+}
+
+.footer-menu > div {
+    font-size: 1.5vw;
+    margin-top: 25vh;
+    color: #ff9ac9;
+}
+
+.footer-social {
+    position: relative;
+}
+
+.footer-social div {
+    height: 4vh;
+    background-size: contain;
+    position: absolute;
+    top: -15vh;
+}
+
+.footer-social-1 {
+    background: url("./../img/Correo-PINK.png") no-repeat center center;
+}
+
+.footer-social-2 {
+    background: url("./../img/Behance-PINK.png") no-repeat center center;
+}
+
+.footer-social-3 {
+    background: url("./../img/Facebook-Pink.png") no-repeat center center;
+}
+
+.footer-social-4 {
+    background: url("./../img/Instagram-Pink.png") no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
